@@ -1,0 +1,90 @@
+*
+{
+	font-family: sans-serif;
+}
+
+/* Color Key
+	Pink: #ff00a6
+	Dark Grey: #363636
+	Light Grey: #d1d1d1
+	Light Pink: #ff38b9
+	
+*/
+
+html
+{
+	scroll-behavior: smooth;
+}
+
+body
+{
+	background-color: #d1d1d1;
+}
+
+
+.LoginForm form
+{
+	background-color: #ff00a6;
+	display: block;
+	margin: auto;
+	margin-top: 8vw;
+	padding: 1em;
+	text-align: center;
+	border-top: 10pt #363636 solid;
+	border-bottom: 10pt #363636 solid;
+	width: 15em;
+}
+
+.LoginForm p
+{
+	padding: 1vw;
+}
+
+.LoginForm label
+{
+	font-size: 20pt;
+}
+
+.LoginForm input:invalid {
+  border: .5em solid red;
+}
+
+.LoginForm input:invalid:required {
+  background-color: #ffb5b5;
+}
+
+.LoginForm input:valid {
+  border: .5em solid green;
+}
+
+
+
+
+
+.BlogPost form
+{
+	background-color: #ff00a6;
+	display: block;
+	margin: auto;
+	margin-top: 1vw;
+	padding: 1em;
+	text-align: center;
+	border-top: 10pt #363636 solid;
+	border-bottom: 10pt #363636 solid;
+	width: 50em;
+}
+
+.BlogPost p
+{
+}
+
+.BlogPost label
+{
+	font-size: 20pt;
+}
+
+.BlogPost textarea
+{
+	height:150px;
+	width: 500px;
+}

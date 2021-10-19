@@ -1,0 +1,150 @@
+*
+{
+	font-family: sans-serif;
+}
+
+/* Color Key
+	Pink: #ff00a6
+	Dark Grey: #363636
+	Light Grey: #d1d1d1
+	Light Pink: #ff38b9
+	
+*/
+
+header, footer
+{
+	background-color: #363636;
+	color: #ff00a6;
+	position: fixed;
+	text-align: center;
+	padding: 1em;
+}
+
+header 
+{
+	float: top;
+	width: 100%;
+}
+
+header h1
+{
+	font-size: 3vw;
+}
+
+header a
+{
+	text-decoration: none;
+	color: #ff00a6;
+}
+
+footer
+{
+	bottom: 0px;
+	width: 100%;
+}
+
+footer li
+{
+	list-style-type: none;
+	position: relative;
+	display: inline-block;
+	padding-right: 2em;
+	font-weight: bold;
+}
+
+footer a
+{
+	text-decoration: none;
+	color: #ff00a6;
+	padding: 1em;
+}
+
+footer a:hover
+{
+	background-color: #545454;
+}
+
+footer nav
+{
+	padding: 1em;
+	font-size: 1.5vw;
+}
+
+header h2, footer h2
+{
+	font-size: 1.5vw;
+}
+
+
+html
+{
+	scroll-behavior: smooth;
+}
+
+body
+{
+	background-color: #d1d1d1;
+}
+
+article
+{
+	padding-top: 20vh;
+	margin-bottom: 20vh;
+	padding-left: 5em;
+	padding-right: 5em;
+}
+
+.BlogPost form
+{
+	background-color: #ff00a6;
+	display: block;
+	margin: auto;
+	padding: 1em;
+	border-top: 10pt #363636 solid;
+	border-bottom: 10pt #363636 solid;
+	color: black;
+	width: 50em;
+}
+
+
+.BlogPost label
+{
+	font-size: 15pt;
+	margin-top: 2vw;
+}
+
+.BlogPost textarea
+{
+	height:150px;
+	width: 500px;
+}
+
+input:invalid {
+  border: .5em solid red;
+  background-color: #ffb5b5;
+}
+
+textarea:invalid
+{
+	border: .5em solid red;
+	background-color: #ffb5b5;
+}
+
+.Blog
+{
+	background-color: #ff00a6;
+	display: block;
+	margin: auto;
+	margin-top: 2em;
+	padding: 1em;
+	border-top: 10pt #363636 solid;
+	border-bottom: 10pt #363636 solid;
+	color: black;
+	width: 100em; 
+}
+
+#blogposts
+{
+	padding: 5pt;
+}
+
